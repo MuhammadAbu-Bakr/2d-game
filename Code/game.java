@@ -1,7 +1,7 @@
 
 import java.awt.Color;
 import javax.swing.*;
-import java.awt.event.*;
+
 /*
  *
  *
@@ -28,17 +28,7 @@ public class game {
         Game_Panel game_panel=new Game_Panel();
         frame.add(game_panel);
         frame.pack();
-        game_panel.startGameThread();
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        game_panel.startGameThread();        
         frame.setVisible(true);
     }
 }

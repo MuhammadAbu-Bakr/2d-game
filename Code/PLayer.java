@@ -1,17 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-
-import java.awt.Color;
-import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 
 /**
@@ -41,9 +31,6 @@ public PLayer(){
     
 }
 
-   // PLayer(Controls c) {
-     //   throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    //}
     public void setdefaultValues(){
         x=100;
         y=100;
@@ -53,10 +40,10 @@ public PLayer(){
     
     
  public void loadImages() {
-        up1 = loadImage("D:\\GitHub\\src\\main\\java\\com\\mycompany\\github\\resources\\p1.png");
-        up2 = loadImage("D:\\GitHub\\src\\main\\java\\com\\mycompany\\github\\resources\\p2.png");
-        walkImage = loadImage("D:\\GitHub\\src\\main\\java\\com\\mycompany\\github\\resources\\p1.png");
-        jumpImage = loadImage("D:\\GitHub\\src\\main\\java\\com\\mycompany\\github\\resources\\p2.png");
+        up1 = loadImage("D:\\Projects\\2d game\\Character");
+        up2 = loadImage("D:\\Projects\\2d game\\Character");
+        walkImage = loadImage("D:\\Projects\\2d game\\Character");
+        jumpImage = loadImage("D:\\Projects\\2d game\\Character");
 
         // Default image
         pp = up1;
